@@ -1,17 +1,74 @@
-<div class="col s12 m6 l4">
-  <div class="card hoverable white lighten-5">
-    <div class="card-content center-align">
-      <h2>{{ name }}</h2>
-      <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>{{ role }}</h3>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Team</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://kit.fontawesome.com/c502137733.js"></script>
+    <style>
+      /* Curve Header CSS from: https://codepen.io/linux/pen/aEQKWP */
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 900px;
+      }
+
+      header {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 30px;
+      }
+
+      header .overlay {
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+        color: #fff;
+        text-shadow: 1px 1px 1px #333;
+        background-color: red;
+      }
+      h1 {
+        font-family: sans-serif;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      .collection-item {
+        font-size: 0.9rem;
+        overflow-wrap: break-word;
+      }
+
+      .card {
+        height: 500px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="overlay">
+        <h1>My Team</h1>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">{{ team }}</div>
     </div>
-    <div class="card-action">
-      <ul class="collection">
-        <li class="collection-item">ID: {{ id }}</li>
-        <li class="collection-item">
-          Email: <a href="mailto:{{ email }}">{{ email }}</a>
-        </li>
-        <li class="collection-item">Office Number: {{ officeNumber }}</li>
-      </ul>
-    </div>
-  </div>
-</div>
+  </body>
+</html>

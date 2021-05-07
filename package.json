@@ -1,6 +1,28 @@
 {
   "dependencies": {
     "inquirer": "^8.0.0",
-    "jest": "^26.6.3"
-  }
+    "jest": "^26.6.3",
+    "test": "^0.6.0"
+  },
+  "name": "team-profile-generator",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JWCoad/Team-Profile-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JWCoad/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/JWCoad/Team-Profile-Generator#readme"
 }
