@@ -16,7 +16,7 @@
 
 ### [NPM Inquirer](https://www.npmjs.com/package/inquirer)
 
-### [NPM Jest]((https://www.npmjs.com/package/jest)
+### [NPM Jest](https://www.npmjs.com/package/jest)
 
 ## Technologies
 
@@ -24,4 +24,4 @@
 
 ### [Inquirer.js](https://www.npmjs.com/package/inquirer)
 
-### [NPM Jest]((https://www.npmjs.com/package/jest)
+### [NPM Jest](https://www.npmjs.com/package/jest)
