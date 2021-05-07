@@ -4,9 +4,9 @@
 
 # ![Demo](assets/demo.gif)
 
-### Screenshot of completed app ![Screenshot](assets/screenshotdone.jpg)
+### Screenshot of completed app ![Screenshot](assets/screenshotdone.JPG)
 
-### Screenshot of output ![Screenshot](assets/demooutput.jpg)
+### Screenshot of output ![Screenshot](assets/demooutput.JPG)
 
 ## Resources used:
 
